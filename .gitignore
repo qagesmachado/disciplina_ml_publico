@@ -1,0 +1,67 @@
+# Ambientes Python
+.venv/
+venv/
+env/
+ENV/
+venv_*/
+
+# Bytecode e caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Build / pacotes
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Dados e artefatos gerados (ML) — ajuste se quiser versionar um peso específico
+outputs/
+runs/
+wandb/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.mlmodel
+*.h5
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.sav
+
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# SO e editores
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+*.sublime-*
+
+# Temporários / artefatos locais
+*.tmp
+*.temp
+.cache/
+*.bak
