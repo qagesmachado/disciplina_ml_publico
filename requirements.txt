@@ -1,0 +1,19 @@
+# Ambiente: venv_yolo_5 — dependências centrais para os scripts do repositório.
+# Python recomendado: 3.10 (o wheel do yolov5 7.0.14 do PyPI inclui até 3.10).
+#
+# O pacote yolov5 instala/compatibiliza a maior parte do stack (torch, opencv, pandas, etc.).
+# Ajuste torch/torchvision abaixo se for usar build GPU (veja README).
+
+yolov5==7.0.14
+
+# Torch: sem teto de versão para acompanhar wheels atuais do PyPI; use +cu* no site do PyTorch se precisar de GPU.
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Usados diretamente pelos scripts (run_and_validate, draw_*, analisar_*)
+numpy==2.4.4
+pillow==12.1.1
+matplotlib==3.10.8
+
+# Úteis para YAMLs e ecosistema YOLO (o yolov5 também declara, mas fica claro no projeto)
+PyYAML==6.0.3

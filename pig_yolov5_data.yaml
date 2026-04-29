@@ -1,4 +1,4 @@
-path: c:/repositories_mestrado/pig_detection_algorithm/pig
+path: c:/repositories_mestrado/disciplina_ml_publico/pig
 train: train/images
 val: val/images
 
