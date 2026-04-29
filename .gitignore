@@ -30,7 +30,6 @@ build/
 outputs/
 runs/
 wandb/
-*.pt
 *.pth
 *.onnx
 *.engine
